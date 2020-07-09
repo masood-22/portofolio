@@ -1,15 +1,17 @@
 body{
-    background-color: rgba(255, 255, 255, 0.897);
+    margin: 0;
+    background-color: rgba(31, 29, 29, 0.801);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 120%;
+    color: white;
 }
 
 header{
-    height: 50px;
+    height: 40px;
     margin-bottom: 1%;
     padding-bottom: 1%;
     padding-bottom: 5%;
-    background-color: rgba(35, 131, 221, 0.836);
+    background-color: rgba(35, 131, 221, 0.562);
 }
 
 nav a{
@@ -20,11 +22,14 @@ nav a{
     float: right;
     text-decoration: none;
     text-align: center;
-    border: 2px solid rgba(0, 0, 0, 1);
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.836);
 
 }
 section{
+    margin: 1%;
     clear: both;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.459);
 }
